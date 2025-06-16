@@ -3,8 +3,8 @@ import 'package:flutter/foundation.dart';
 
 class ApiConfig {
   // 🔧 Base URLs - Ganti sesuai hosting yang dipakai
-  static const String _developmentUrl = 'http://localhost:8000/api';
-  static const String _productionUrl = 'https://your-backend-domain.com/api';
+  static const String _developmentUrl = 'https://drian-backend.is-web.my.id/api';
+  static const String _productionUrl = 'https://drian-backend.is-web.my.id/api';
   
   // Auto switch berdasarkan mode (debug/release)
   static String get baseUrl => kDebugMode ? _developmentUrl : _productionUrl;
